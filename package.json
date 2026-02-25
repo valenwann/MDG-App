@@ -1,16 +1,27 @@
-16:49:56.055 Running build in Washington, D.C., USA (East) – iad1
-16:49:56.056 Build machine configuration: 2 cores, 8 GB
-16:49:56.260 Cloning github.com/valenwann/MDG-App (Branch: main, Commit: 912ee64)
-16:49:56.261 Previous build caches not available.
-16:49:56.604 Cloning completed: 344.000ms
-16:49:59.154 Running "vercel build"
-16:50:00.721 Vercel CLI 50.23.2
-16:50:01.416 Installing dependencies...
-16:50:02.374 
-16:50:02.375 up to date in 652ms
-16:50:02.538 npm error Missing script: "build"
-16:50:02.538 npm error
-16:50:02.539 npm error To see a list of scripts, run:
-16:50:02.539 npm error   npm run
-16:50:02.540 npm error A complete log of this run can be found in: /vercel/.npm/_logs/2026-02-25T13_50_02_476Z-debug-0.log
-16:50:02.548 Error: Command "npm run build" exited with 1
+{
+  "name": "mdg-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  }
+}
