@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL FONT & BODY */
+html, body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+
+/* COLORS FOR CARDS, BUTTONS, TEXT */
+.bg-background { background-color: #0A0A0A; }
+.bg-card { background-color: #111111; border-radius: 16px; padding: 24px; }
+.bg-primary { background-color: #FF6A00; color: #FFFFFF; }
+.text-secondaryText { color: #A1A1AA; }
+.text-accent { color: #F4B400; }
